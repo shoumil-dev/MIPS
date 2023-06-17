@@ -1,0 +1,44 @@
+<testsuite errors="1" failures="0" name="" tests="32" time="25.801">
+<testcase classname="test_task1.TestTask1" name="test1_1" time="2.003">
+<error type="TimeoutError">Traceback (most recent call last):
+  File "/Volumes/Common/Monash/FIT2085/assignment-1-2085/tests/base_test.py", line 53, in _callTestMethod
+    raise e
+  File "/Volumes/Common/Monash/FIT2085/assignment-1-2085/tests/base_test.py", line 48, in _callTestMethod
+    method()
+  File "/Volumes/Common/Monash/FIT2085/assignment-1-2085/tests/base_test.py", line 31, in test
+    raise TimeoutError(f"Timed out after {sec} seconds")
+TimeoutError: Timed out after 2 seconds
+</error>
+</testcase>
+<testcase classname="test_task1.TestTask1" name="test1_2" time="0.898"/>
+<testcase classname="test_task1.TestTask1" name="test1_3" time="0.842"/>
+<testcase classname="test_task1.TestTask1" name="test1_4" time="0.856"/>
+<testcase classname="test_task1.TestTask1" name="test1_5" time="0.843"/>
+<testcase classname="test_task1.TestTask1" name="test1_pseudoinstructions" time="0.003"/>
+<testcase classname="test_task2.Testtask2" name="test2_1" time="0.852"/>
+<testcase classname="test_task2.Testtask2" name="test2_2" time="0.861"/>
+<testcase classname="test_task2.Testtask2" name="test2_3" time="0.897"/>
+<testcase classname="test_task2.Testtask2" name="test2_4" time="0.879"/>
+<testcase classname="test_task2.Testtask2" name="test2_5" time="0.861"/>
+<testcase classname="test_task2.Testtask2" name="test2_pseudoinstructions" time="0.001"/>
+<testcase classname="test_task3.TestTask3" name="test3_1" time="0.903"/>
+<testcase classname="test_task3.TestTask3" name="test3_2" time="0.928"/>
+<testcase classname="test_task3.TestTask3" name="test3_3" time="0.949"/>
+<testcase classname="test_task3.TestTask3" name="test3_4" time="0.919"/>
+<testcase classname="test_task3.TestTask3" name="test3_5" time="0.919"/>
+<testcase classname="test_task3.TestTask3" name="test3_pseudoinstructions" time="0.001"/>
+<testcase classname="test_task4.TestTask4" name="test4_1" time="0.948"/>
+<testcase classname="test_task4.TestTask4" name="test4_2" time="0.959"/>
+<testcase classname="test_task4.TestTask4" name="test4_3" time="0.930"/>
+<testcase classname="test_task4.TestTask4" name="test4_4" time="0.967"/>
+<testcase classname="test_task4.TestTask4" name="test4_5" time="0.958"/>
+<testcase classname="test_task4.TestTask4" name="test4_main" time="0.942"/>
+<testcase classname="test_task4.TestTask4" name="test4_pseudoinstructions" time="0.001"/>
+<testcase classname="test_task5.TestTask5" name="test5_1" time="0.936"/>
+<testcase classname="test_task5.TestTask5" name="test5_2" time="0.957"/>
+<testcase classname="test_task5.TestTask5" name="test5_3" time="0.960"/>
+<testcase classname="test_task5.TestTask5" name="test5_4" time="0.944"/>
+<testcase classname="test_task5.TestTask5" name="test5_5" time="0.947"/>
+<testcase classname="test_task5.TestTask5" name="test5_main" time="0.929"/>
+<testcase classname="test_task5.TestTask5" name="test5_pseudoinstructions" time="0.001"/>
+</testsuite>

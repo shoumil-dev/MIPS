@@ -1,0 +1,7 @@
+.idea
+venv
+.git_temp
+.gitlab*
+README*
+*.pdf
+._*
